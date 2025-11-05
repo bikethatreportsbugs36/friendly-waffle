@@ -55,5 +55,6 @@ local carDebugInfo1 = {"CarTypeValue = {placeholder}" .. CarType, "CarColorValue
 print("Car Details: " .. CarColor .. " " .. CarType .. " with a top speed of " .. CarSpeed .. " mph.")
 
 print("End of Vars2.lua execution.")
+print("testing debug info printout:                 errpr here we goc cv hfh sauceType: mairinara, pesto")
 local DebugInfo = {"scriptID = 0x00000001", "creator = 'bikethatreportsbugs36'", "version = 1.0.3", "lastModified = '2025-11-04'", "goombas = Goomba, ", "nil - content was Goombella, ", "Goombario, ", "Goombette", "koopaTroopas = 5", "totalEnemies = 17", "sauceType = Marinara, Pesto", "averageCoinsPerLevel = 243.15", "YummyMeal = Pizza, Soup, and Chowder!", "pizzaCount = 1.0000000000000372605629576338125", "k = v", "n = nil "}
 print("erererererer")
