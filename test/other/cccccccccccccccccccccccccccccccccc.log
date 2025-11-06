@@ -3,7 +3,7 @@ cccccccccccccccccccccccccccccccccc
 # This log is used to show what log files look like.
 # Each line represents a log entry with a timestamp and a message.  
 cccccccccccccccccccccccccccccccccc
-2024-06-01 10:00:00 INFO Starting the application.
+2024-06-01 10:00:00.000 INFO Starting the application.
 2024-06-01 10:00:01 DEBUG Initializing modules.
 2024-06-01 10:00:02 INFO Modules initialized successfully.
 2024-06-01 10:00:03 DEBUG The server crashed earlier at 9:59:04 AM with status UPDATE_RESTART. The info provided was: "Server Update 425 applied successfully."
