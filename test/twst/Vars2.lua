@@ -1,4 +1,5 @@
 local goombas = 12
+
 local koopaTroopas = 5
 local totalEnemies = goombas + koopaTroopas
 print("Total enemies: " .. totalEnemies)

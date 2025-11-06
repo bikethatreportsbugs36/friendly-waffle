@@ -1,6 +1,26 @@
+logWhisperer.autoRefresh true
+logWhisperer.maxFileSize 20
+
 2025-11-06 14:15:31,123 com.general.logger INFO Starting service...
 2025-11-06 14:15:31,456 com.general.load INFO Initializing modules...
 2025-11-06 14:15:31,789 com.general.load INFO No modules found.
 2025-11-06 14:15:31,809 com.general.load INFO Logger service started.
 2025-11-06 14:15:31,819 com.general.load INFO Logger service ready to accept log messages.
-2025-11-06 14:15:31,809 com.server.load DEBUG Logger service started.
+2025-11-06 14:15:31,849 com.server.load DEBUG Logger service started.
+2025-11-06 14:15:31,899 com.server.player DEBUG player connected: id=1356, name='PressStart72', plauers onlne=6
+2025-11-06 14:15:32,399 com.server.player DEBUG player disconnected: id=1356, name='PressStart72', plauers online=5
+2025-11-06 14:15:32,899 com.server.player WARNING player login failed: id=1357, name='NoobMaster', reason='Cannot connect', plauers online=5, identifer='f56cf68sd7f6g5h4j3k2l1'ine=5
+2025-11-06 14:15:33,899 com.server.player DEBUG player connected: id=1356, name='PressStart2', plauers online=6
+2025-11-06 14:15:34,399 com.server.player DEBUG player disconnected: id=1356, name='PressStart2', plauers online=5
+2025-11-06 14:15:34,899 com.server.player WARNING player login failed: id=1358, name='GamerGirl', reason='user doesnt exist', plauers online=5, identifer='a1b2c3d4e5f6g7h8i9j0'ine=5
+2025-11-06 14:15:35,899 com.server.player DEBUG player connected: id=1359, name='ProGamer', plauers online=6
+2025-11-06 14:15:36,399 com.server.player DEBUG player kicked: id=1359, name='ProGamer', reason='Check connection.', plauers online=5
+2025-11-06 14:15:36,899 com.server.player WARNING player login failed: id=1360, name='NoobSlayer', reason='Banned user', plauers online=5, identifer='z9y8x7w6v5u4t3s2r1q0'ine=5
+2025-11-06 14:15:37,899 com.server.player DEBUG player connected: id=1361, name='EliteSniper', plauers online=6
+2025-11-06 14:15:38,399 com.server.player INFO There are currently 6 players online.
+2025-11-06 14:15:38,899 com.server.player DEBUG player login succeeded: id=1362, name='SpeedRunner', plauers online=7
+2025-11-06 14:15:39,399 com.server.player DEBUG player finished a speedrun: id=1362, name='SpeedRunner3', time='00:25:34.134', plauers online=7
+2025-11-06 14:15:39,899 com.server.player WARNING player login failed: id=1363, name='CasualGamer', reason='Server is blocked', plauers online=7, identifer='q1w2e3r4t5y6u7i8o9p0'ine=7
+2025-11-06 14:15:40,899 com.server.player DEBUG player connected: id=1364, name='HardcoreGamer', plauers online=8, strikes=0
+2025-11-06 14:15:41,399 com.server.player DEBUG player disconnected: id=1364, name='HardcoreGamer', plauers online=8, strikes=1
+2025-11-06 14:15:41,899 com.server.handler ERROR invalid player stats in log entry 20: id:1364, name:'HardcoreGamer', reason:'Stats corrupted', plauers online=7, strikes=0
