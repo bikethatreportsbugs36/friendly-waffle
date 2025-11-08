@@ -1,0 +1,201 @@
+Please note that the following log entries are fictional and created for illustrative purposes only.
+The game is a fictional platformer game (fictional mario game, which doesnt actully exist, i just like messing around sometimes :) ) , and any resemblance to real games is purely coincidental.
+{ 
+also idk why theres a random { just chilling there
+
+"editor.tokenColorCustomizations": {
+    "textMateRules": [
+        {
+            "scope": "log.error",
+            "settings": {
+                "foreground": "#ff0000ff",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "log.warning",
+            "settings": {
+                "foreground": "#ffe600ff",
+                "fontStyle": ""
+            }
+        }
+    ]
+}
+
+
+
+2025-11-08 09:58:07.070 DEBUG [serverhealthmgr] Started up with status: 0x1 (OK)
+2025-11-08 09:58:07.072 INFO  [authmodule] User 'admin' logged in successfully from IP [getClientIP()]
+2025-11-08 09:58:07.073 DEBUG [authmodule] User 'admin' roles: [Administrator, Moderator]
+2025-11-08 09:58:07.074 DEBUG [serverhealthmgr] Running in Closed Beta mode (which means more debug)
+2025-11-08 09:58:07.075 WARN  [authmodule] Multiple failed login attempts detected for user 'guest' from IP [getClientIP()]. Reason: The closed beta is only avaiblbe to authorized users. (which include vetarans, former devs and content creators)
+2025-11-08 09:58:07.077 INFO  [serverhealthmgr] Performing routine health check...
+2025-11-08 09:58:07.080 DEBUG [serverhealthmgr] Health check completed. 1 minor issue found.
+2025-11-08 09:58:07.082 INFO  [serverhealthmgr] Server health status: 0x1 (OK) with warnings.
+2025-11-08 09:58:07.085 DEBUG [authmodule] Session token generated for user 'admin': [generateSessionToken()]
+2025-11-08 09:58:07.087 DEBUG  [serverhealthmgr] Session token for '[admin] Yoshi400' is: [3fc56dgf7-9b12-4e5a-8c3d-2f4e5b6a7c8d]. Minor issues: Some user info might be leaked in logs. 
+2025-11-08 09:58:07.090 INFO  [authmodule] User 'admin' session started successfully.
+2025-11-08 09:58:07.092 DEBUG [serverhealthmgr] Monitoring services initialized.
+2025-11-08 09:58:07.095 INFO  [serverhealthmgr] Server is fully operational.
+2025-11-08 09:58:07.097 DEBUG [authmodule] User 'admin' permissions: [Full Access]
+2025-11-08 09:58:07.100 INFO  [serverhealthmgr] Server health manager initialization complete.
+2025-11-08 09:58:07.102 DEBUG [serverhealthmgr] Exiting initialization sequence.
+2025-11-08 09:58:07.105 INFO  [serversystem] Logging service started.
+2025-11-08 09:58:07.107 DEBUG [serversystem] Log levels shown for this service are: DEBUG, INFO, WARN, ERROR, FATAL, TRACE, PERF (put at start of service name in logs)
+2025-11-08 09:58:07.110 WARN  [authmodule] Deprecated API usage detected in module 'authmodule'. Reason: Using old authentication method. Please update to the latest API.
+2025-11-08 09:58:07.112 DEBUG [user.replays] Replay system initialized for user 'admin'.
+2025-11-08 09:58:07.115 DEBUG [serversystem.cloud.replays] Replay upload service started for user 'admin'.
+2025-11-08 09:58:07.117 DEBUG [serversystem.cloud.replays] User 'admin' replay upload service is operational.
+2025-11-08 09:58:07.120 INFO  [serversystem] all required services started successfully.
+2025-11-08 09:58:07.272 DEBUG [serversystem] Server system initialization complete. Took 202.45755 ms.
+2025-11-08 09:58:07.275 TRACE [serversystem] Trace log initialized for detailed debugging.
+2025-11-08 09:58:07.277 PERF  [serversystem] Performance metrics logging started. If any performance issues arise, the logs will show an extra (PERF:LOGLEVEL:TYPE) tag.
+2025-11-08 09:58:07.280 INFO  [serversystem] Server is ready to accept connections.
+2025-11-08 09:58:07.382 DEBUG [authmodule] User 'admin' performed action: 'Start Server Health Check'.
+2025-11-08 09:58:07.385 INFO  [serverhealthmgr] Server health check initiated by user 'admin'. Logs will contain detailed debug information due to Closed Beta mode.
+2025-11-08 09:58:07.387 DEBUG [serverhealthmgr] Health check parameters: Full scan enabled, log level set to All.
+2025-11-08 09:58:07.390 WARN  [serverhealthmgr] Health check guide: P5 = OK, P4 = Minor, P3 = Moderate, P2 = Major, P1 = Critical, P0 = Fatal, P6 = Repaired. (Format: Checked, P5, P4, P3, P2, P1, P0, P6)
+2025-11-08 09:58:07.392 DEBUG [serverhealthmgr] Health check in progress...
+2025-11-08 09:58:07.395 DEBUG [serverhealthmgr] 1 item(s) checked, 1 item okay (P5/P6), 0 item(s) with P4, 0 item(s) with P3, 0 item(s) with P2, 0 item(s) with P1/P0. 
+2025-11-08 09:58:07.397 DEBUG [serverhealthmgr] Shortening debug info.
+2025-11-08 09:58:07.400 DEBUG [serverhealthmgr] 2, 2, 0, 0, 0, 0, 0, 0, 'path: server.authmodule.ui.login', 'status: OK'. (comment) also to the autofill: there isnt 2 items, theres like 16 in the ui part, i know one has a problem.
+2025-11-08 09:58:07.400 WARN [serverhealthmgr] 3, 2, 1, 0, 0, 0, 0, 0, 'path: server.authmodule.ui.inlevel.collectibleslayer', 'status: No layer found for "coins'.
+2025-11-08 09:58:07.400 DEBUG [serverhealthmgr] 4, 3, 1, 0, 0, 0, 0, 0, 'path: server.authmodule.ui.login.passwordbox', 'status: OK'.
+2025-11-08 09:58:07.400 DEBUG [serverhealthmgr] 5, 4, 1, 0, 0, 0, 0, 0, 'path: server.authmodule.ui.login.usernamebox', 'status: OK'.
+2025-11-08 09:58:07.400 WARN [serverhealthmgr] 6, 4, 2, 0, 0, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.scoreboard', 'status: Missing scoreboard element (scoreboarddebug.kce)'.
+2025-11-08 09:58:07.400 DEBUG [serverhealthmgr] 7, 5, 2, 0, 0, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.healthbar', 'status: OK - 1 breakpoint was added - but it was unreachable anyway'.
+2025-11-08 09:58:07.400 DEBUG [serverhealthmgr] 8, 6, 2, 0, 0, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.ammodisplay', 'status: OK'.
+2025-11-08 09:58:07.400 WARN [serverhealthmgr] 9, 6, 3, 0, 0, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.minimap', 'status: Minimap layer missing (minimap.kce, layerlist.sg15p)'.
+2025-11-08 09:58:07.400 DEBUG [serverhealthmgr] 10, 7, 3, 0, 0, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.weaponinfo', 'status: OK'.
+2025-11-08 09:58:07.400 DEBUG [serverhealthmgr] 11, 8, 3, 0, 0, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.abilitycooldowns', 'status: OK'.
+2025-11-08 09:58:07.400 WARN [serverhealthmgr] 12, 8, 4, 0, 0, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.objectives', 'status: 1 object that may have been typed wrong was called (objectives.kce)'.
+2025-11-08 09:58:07.400 DEBUG [serverhealthmgr] 13, 9, 4, 0, 0, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.chatbox', 'status: OK'.
+2025-11-08 09:58:07.400 DEBUG [serverhealthmgr] 14, 10, 4, 0, 0, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.killfeed', 'status: OK'.
+2025-11-08 09:58:07.400 WARN [serverhealthmgr] 15, 10, 4, 1, 0, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.abilityicons', 'status: 1 ability icon missing (abilityicons.kce)'.
+2025-11-08 09:58:07.400 DEBUG [serverhealthmgr] Health check detailed log end.
+2025-11-08 09:58:07.400 WARN  [serverhealthmgr] Unexpected call to 'endHealthCheck()' method. No limit was set for health check duration.
+2025-11-08 09:58:07.400 DEBUG [serverhealthmgr] Health check process continuing...
+2025-11-08 09:58:07.400 DEBUG [serverhealthmgr] 16, 11, 4, 1, 0, 0, 0, 0, 'path: server.authmodule.ui.login.button', 'status: OK'.
+2025-11-08 09:58:07.400 DEBUG [serverhealthmgr] 17, 12, 4, 1, 0, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.scoreboard.background', 'status: OK'.
+2025-11-08 09:58:07.400 ERROR [serverhealthmgr] 18, 12, 4, 1, 1, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.minimap.icons', 'status: Corrupted minimap icon data (minimapicons.kce)'.
+2025-11-08 09:58:07.404 DEBUG [serverhealthmgr] 19, 13, 4, 1, 1, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.chatbox.emotes', 'status: OK'.
+2025-11-08 09:58:07.437 ERROR [serverhealthmgr] 20, 13, 4, 1, 2, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.killfeed.entries', 'status: Failed to load killfeed entries when testing (killfeedentries.kce)'.
+2025-11-08 09:58:07.440 DEBUG [serverhealthmgr] Health check restarting... 
+2025-11-08 09:58:07.442 INFO  [serverhealthmgr] Restarting health check as per configuration.
+2025-11-08 09:58:07.445 DEBUG [serverhealthmgr] Health check parameters: Full scan enabled, log level set to All, compact: true.
+2025-11-08 09:58:07.448 INFO [serverhealthmgr] Health check in progress...
+2025-11-08 09:58:07.454 DEBUG [serverhealthmgr] 21, 14, 4, 1, 1, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.chatbox.entries', 'status: OK'.
+2025-11-08 09:58:07.457 WARN [serverhealthmgr] 22, 14, 5, 1, 1, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.scoreboard.entries', 'status: Some scoreboard entries failed to load (scoreboardentries.kce)'.
+2025-11-08 09:58:07.460 DEBUG [serverhealthmgr] 23, 15, 5, 1, 1, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.healthbar.segments', 'status: OK'.
+2025-11-08 09:58:07.463 DEBUG [serverhealthmgr] 24, 16, 5, 1, 1, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.ammodisplay.icons', 'status: OK'.
+2025-11-08 09:58:07.466 WARN [serverhealthmgr] 25, 16, 6, 1, 1, 0, 0, 0, 'path: server.authmodule.ui.inlevel.hud.minimap.markers', 'status: Some minimap markers missing (minimapmarkers.kce)'. Repairing...
+2025-11-08 09:58:07.470 DEBUG [serverhealthmgr] 25, 17, 5, 1, 1, 0, 0, 1, 'path: server.authmodule.ui.inlevel.hud.weaponinfo.details', 'status: OK'.
+2025-11-08 09:58:07.473 INFO  [serverhealthmgr] Repair successful for 'minimap.markers'. Issue downgraded to P6 (Repaired).
+2025-11-08 09:58:07.476 DEBUG [serverhealthmgr] 26, 18, 5, 1, 1, 0, 0, 1, 'path: server.authmodule.ui.inlevel.hud.abilitycooldowns.timers', 'status: OK'.
+2025-11-08 09:58:07.479 WARN [serverhealthmgr] 27, 18, 6, 1, 1, 0, 0, 1, 'path: server.authmodule.ui.inlevel.hud.objectives.list', 'status: Some objectives failed to load (objectiveslist.kce)'. Repairing...
+2025-11-08 09:58:07.483 DEBUG [serverhealthmgr] 27, 19, 5, 1, 1, 0, 0, 2, 'path: server.authmodule.ui.inlevel.hud.chatbox.messages', 'status: OK'.
+2025-11-08 09:58:07.486 INFO  [serverhealthmgr] Repair successful for 'objectives.list'. Issue downgraded to P6 (Repaired).
+2025-11-08 09:58:07.489 DEBUG [serverhealthmgr] 28, 20, 5, 1, 1, 0, 0, 2, 'path: server.authmodule.ui.inlevel.hud.killfeed.recent', 'status: OK'.
+2025-11-08 09:58:07.492 INFO  [serverhealthmgr] Health check completed for hud. 5 minor issues found, 1 Moderate, 1 major. Detailed results logged above.
+2025-11-08 09:58:07.495 DEBUG [serverhealthmgr] Health check continuing to next module. with prev stats: 28, 20, 5, 1, 1, 0, 0, 2
+2025-11-08 09:58:07.498 INFO  [serverhealthmgr] Starting health check for 'authmodule'.
+2025-11-08 09:58:07.502 DEBUG [serverhealthmgr] 29, 21, 5, 1, 1, 0, 0, 2, 'path: server.authmodule.ui.login.captcha', 'status: OK'.
+2025-11-08 09:58:07.505 DEBUG [serverhealthmgr] 30, 21, 6, 1, 1, 0, 0, 2, 'path: server.authmodule.ui.login.securityquestions', 'status: OK)'. 
+2025-11-08 09:58:07.508 WARN [serverhealthmgr] 31, 21, 7, 1, 1, 0, 0, 2, 'path: server.authmodule.ui.login.2fa', 'status: 2FA module outdated (2fa.kce)'. Repairing... (Will take a little while)
+2025-11-08 09:58:07.511 INFO  [serverhealthmgr] Repair successful for 'login.2fa'. Issue downgraded to P6 (Repaired).
+2025-11-08 09:58:07.592 DEBUG [serverhealthmgr] 31, 22, 6, 1, 1, 0, 0, 3, 'path: server.authmodule.ui.login.rememberme', 'status: OK'.
+2025-11-08 09:58:07.595 WARN [serverhealthmgr] 32, 22, 7, 1, 1, 0, 0, 3, 'path: server.authmodule.ui.login.forgotpassword', 'status: Forgot password module missing (forgotpassword.kce)'. Repairing...
+2025-11-08 09:58:07.598 INFO  [serverhealthmgr] Repair successful for 'login.forgotpassword'. Issue downgraded to P6 (Repaired).
+2025-11-08 09:58:07.601 DEBUG [serverhealthmgr] 33, 23, 6, 1, 1, 0, 0, 4, 'path: server.authmodule.ui.login.sociallogin', 'status: OK'.
+2025-11-08 09:58:07.604 DEBUG [serverhealthmgr] 34, 24, 6, 1, 1, 0, 0, 4, 'path: server.authmodule.ui.login.oauth', 'status: OK'.
+2025-11-08 09:58:07.607 DEBUG [serverhealthmgr] 35, 25, 6, 1, 1, 0, 0, 4, 'path: server.authmodule.ui.login.sso', 'status: OK'.
+2025-11-08 09:58:07.610 INFO  [serverhealthmgr] Health check completed for authmodule. 1 minor issues found. Detailed results logged above.
+2025-11-08 09:58:07.613 DEBUG [serverhealthmgr] Health check continuing to next module. with prev stats: 35, 25, 6, 1, 1, 0, 0, 4
+2025-11-08 09:58:07.616 INFO  [serverhealthmgr] Starting health check for 'networkmodule'.
+2025-11-08 09:58:07.620 DEBUG [serverhealthmgr] 36, 26, 6, 1, 1, 0, 0, 4, 'path: server.networkmodule.connection.manager', 'status: OK'.
+2025-11-08 09:58:07.623 DEBUG [serverhealthmgr] 37, 27, 6, 1, 1, 0, 0, 4, 'path: server.networkmodule.connection.handler', 'status: OK'.
+2025-11-08 09:58:07.626 DEBUG [serverhealthmgr] 38, 28, 6, 1, 1, 0, 0, 4, 'path: server.networkmodule.packet.processor', 'status: OK'.
+2025-11-08 09:58:07.629 DEBUG [serverhealthmgr] 39, 29, 6, 1, 1, 0, 0, 4, 'path: server.networkmodule.firewall', 'status: OK'.
+2025-11-08 09:58:07.632 INFO  [serverhealthmgr] Health check completed for networkmodule. No issues found! Detailed results logged above.
+2025-11-08 09:58:07.635 DEBUG [serverhealthmgr] Health check continuing to next module. with prev stats: 39, 29, 6, 1, 1, 0, 0, 4
+2025-11-08 09:58:07.638 INFO  [serverhealthmgr] Starting health check for 'databasemodule'.
+2025-11-08 09:58:07.642 DEBUG [serverhealthmgr] 40, 30, 6, 1, 1, 0, 0, 4, 'path: server.databasemodule.connection.pool', 'status: OK'.
+2025-11-08 09:58:07.645 DEBUG [serverhealthmgr] 41, 31, 6, 1, 1, 0, 0, 4, 'path: server.databasemodule.query.executor', 'status: OK'.
+2025-11-08 09:58:07.648 DEBUG [serverhealthmgr] 42, 32, 6, 1, 1, 0, 0, 4, 'path: server.databasemodule.migration.tool', 'status: OK'.
+2025-11-08 09:58:07.651 INFO  [serverhealthmgr] Health check completed for databasemodule. No issues found! Detailed results logged above.
+2025-11-08 09:58:07.654 DEBUG [serverhealthmgr] Health check continuing to next module. with prev stats: 42, 32, 6, 1, 1, 0, 0, 4
+2025-11-08 09:58:07.657 INFO  [serverhealthmgr] Starting health check for 'storagemodule'.
+2025-11-08 09:58:07.661 DEBUG [serverhealthmgr] 43, 33, 6, 1, 1, 0, 0, 4, 'path: server.storagemodule.file.manager', 'status: OK'.
+2025-11-08 09:58:07.664 DEBUG [serverhealthmgr] 44, 34, 6, 1, 1, 0, 0, 4, 'path: server.storagemodule.backup.service', 'status: OK'.
+2025-11-08 09:58:07.667 ERROR  [serverhealthmgr] 45, 34, 6, 1, 2, 0, 0, 4, 'path: server.storagemodule.encryption.module', 'status: Encryption module failed self-test (encryptionmodule.kce)'.
+2025-11-08 09:58:07.670 INFO  [serverhealthmgr] Health check completed for storagemodule. 1 major issue found. Detailed results logged above.
+2025-11-08 09:58:07.673 DEBUG [serverhealthmgr] Health check continuing to next module. with prev stats: 45, 34, 6, 1, 2, 0, 0, 4
+2025-11-08 09:58:07.676 INFO  [serverhealthmgr] Starting health check for 'backupmodule'.
+2025-11-08 09:58:07.680 DEBUG [serverhealthmgr] 46, 35, 6, 1, 2, 0, 0, 4, 'path: server.backupmodule.scheduler', 'status: OK'.
+2025-11-08 09:58:07.683 DEBUG [serverhealthmgr] 47, 36, 6, 1, 2, 0, 0, 4, 'path: server.backupmodule.storage.handler', 'status: OK'.
+2025-11-08 09:58:07.686 INFO  [serverhealthmgr] Health check completed for backupmodule. No issues found! Detailed results logged above.
+2025-11-08 09:58:07.689 DEBUG [serverhealthmgr] Health check continuing to next module. with prev stats: 47, 36, 6, 1, 2, 0, 0, 4
+2025-11-08 09:58:07.692 INFO  [serverhealthmgr] Starting health check for 'notificationmodule'.
+2025-11-08 09:58:07.696 WARN  [serverhealthmgr] 48, 36, 7, 1, 2, 0, 0, 4, 'path: server.notificationmodule.email.service', 'status: Email service configuration outdated (emailservice.kce)'. Repairing...
+2025-11-08 09:58:07.700 INFO  [serverhealthmgr] Repair successful for 'email.service'. Issue downgraded to P6 (Repaired).
+2025-11-08 09:58:07.703 WARN [serverhealthmgr] 48, 37, 6, 1, 2, 0, 0, 5, 'path: server.notificationmodule.sms.service', 'status: 3'.
+2025-11-08 09:58:07.706 INFO  [serverhealthmgr] Health check completed for notificationmodule. 2 minor issues found. Detailed results logged above.
+2025-11-08 09:58:07.709 DEBUG [serverhealthmgr] Health check continuing to next module. with prev stats: 48, 37, 6, 1, 2, 0, 0, 5
+2025-11-08 09:58:07.712 INFO  [serverhealthmgr] Starting health check for 'loggingmodule'.
+2025-11-08 09:58:07.716 DEBUG [serverhealthmgr] 49, 38, 6, 1, 2, 0, 0, 5, 'path: server.loggingmodule.file.writer', 'status: OK'.
+2025-11-08 09:58:08.689 DEBUG [serverhealthmgr] 50, 39, 6, 1, 2, 0, 0, 5, 'path: server.loggingmodule.log.rotator', 'status: OK'.
+2025-11-08 09:58:08.694 INFO  [serverhealthmgr] Health check completed for loggingmodule. No issues found! Detailed results logged above.
+
+2025-11-08 09:58:08.700 INFO  [serverhealthmgr] Server health check completed. 35 minor issues found. Detailed results logged above.
+2025-11-08 09:58:08.705 DEBUG [serverhealthmgr] Exiting health check sequence. Summary: 50 items checked, 39 items okay (P5/P6), 6 item(s) with P4, 1 item(s) with P3, 2 item(s) with P2, 0 item(s) with P1/P0.
+2025-11-08 09:58:08.710 INFO  [serversystem] Server health manager shutting down.
+2025-11-08 09:58:08.715 DEBUG [serversystem] Server health manager shutdown complete.
+2025-11-08 09:58:08.720 INFO  [serversystem] All services have been stopped successfully.
+2025-11-08 09:58:08.725 DEBUG [serversystem] Server system shutdown complete.
+2025-11-08 09:58:08.730 FATAL [serversystem] Fatal error encountered during shutdown sequence. Reason: Unexpected exception in logging module.
+2025-11-08 09:58:08.735 TRACE [serversystem] Trace log closed for server shutdown.
+2025-11-08 09:58:08.740 PERF  [serversystem] Total shutdown time: 1730.67 ms.
+2025-11-08 09:58:08.745 INFO  [serversystem] Server has been shut down.
+2025-11-08 09:58:08.750 DEBUG [serversystem] Final log entry before termination.
+2025-11-08 09:58:08.755 INFO  [system] Log file closed.
+2025-11-08 09:58:08.940 DEBUG [system] Starting up...
+2025-11-08 09:58:08.945 INFO  [system] System initialization complete.
+2025-11-08 09:58:08.990 DEBUG [system] System ready for operation.
+2025-11-08 09:58:09.000 INFO  [server] Server started successfully.
+2025-11-08 09:58:09.050 DEBUG [server] Listening for incoming connections on port 8080.
+2025-11-08 09:58:09.100 INFO  [server] Server is operational and accepting connections.
+2025-11-08 09:58:09.150 DEBUG [server] Current active connections: 1
+2025-11-08 09:58:09.175 WARN  [server] 'admin' user has allowed identifer's to be shown in logs. Be cautious of sensitive information. 
+2025-11-08 09:58:09.200 INFO  [server] New connection established from identifier [m000000, 6v].
+2025-11-08 09:58:09.200 DEBUG [server] Connection parameters for [m000000, 6v]: Latency: 50ms, Packet Loss: 0.1%
+2025-11-08 09:58:09.250 INFO [server.multiplayer] Multiplayer session started for user 'admin'.
+2025-11-08 09:58:09.300 DEBUG [server.multiplayer] Multiplayer session parameters for 'admin': Mode: Main Game - With coin counters, Map: Mushroom Kingdom, Max Players: 16, Voice Chat: Enabled, Server ID: SG-15P-0001
+2025-11-08 09:58:09.350 INFO  [server.multiplayer] User 'admin' joined multiplayer session successfully.
+2025-11-08 09:58:09.400 DEBUG [server.multiplayer] Current multiplayer session players: 1/16
+2025-11-08 09:58:09.450 INFO  [server.multiplayer] User 'admin' selecting character: Mario
+2025-11-08 09:58:09.500 DEBUG [server.multiplayer] Character selection for 'admin': Mario (Character ID: 1), Skin: Classic Red, Abilities: Jump Boost, Speed Boost
+2025-11-08 09:58:09.510 INFO  [server.multiplayer] Character 'Mario' selected successfully for user 'admin'.
+2025-11-08 09:58:09.550 DEBUG [server.multiplayer] Current character selections: 1 player(s) selected.
+2025-11-08 09:58:27.334 DEBUG [server.players] Connection established with player 'goomba4' (ID: m000001, 46).
+2025-11-08 09:58:27.336 INFO  [server.players] Player 'goomba4' logged in successfully.
+2025-11-08 09:58:27.338 DEBUG [server.players] Player 'goomba4' roles: [Player, Vetaran, Content Creator, Tester, Moderator, VIP+].
+2025-11-08 09:58:42.446 DEBUG [server.players.multiplayer] Player 'goomba4' joined multiplayer session successfully.
+2025-11-08 09:58:42.448 INFO  [server.players.multiplayer] Multiplayer session parameters for 'goomba4': Mode: Main Game - With coin counters, Map: Mushroom Kingdom, Max Players: 16, Voice Chat: Enabled, Server ID: SG-15P-0001
+2025-11-08 09:58:42.450 DEBUG [server.players.multiplayer] Current multiplayer session players: 2/16
+2025-11-08 09:58:43.114 INFO  [server.players.multiplayer] Player 'goomba4' selecting character: Mario
+2025-11-08 09:58:44.114 INFO  [server.players.multiplayer] Player 'goomba4' selecting character: Luigi
+2025-11-08 09:58:44.414 INFO  [server.players.multiplayer] Player 'goomba4' selecting character: Toad (category)
+2025-11-08 09:58:44.964 INFO  [server.players.multiplayer] Player 'goomba4' selecting Toad: Red Toad
+2025-11-08 09:58:45.964 INFO  [server.players.multiplayer] Player 'goomba4' selecting Toad: Blue Toad
+2025-11-08 09:58:46.464 INFO  [server.players.multiplayer] Player 'goomba4' selecting Toad: Yellow Toad
+2025-11-08 09:58:47.864 INFO  [server.players.multiplayer] Character 'Yellow Toad' selected successfully for player 'goomba4'. Character ID: 13, Skin: Classic Yellow, Abilities: Speed Boost, High Jump
+2025-11-08 09:58:47.866 DEBUG [server.players.multiplayer] Current character selections: 2 player(s) selected.
+2025-11-08 09:59:10.123 DEBUG [server.players] Player 'mariofan99' (ID: m000002, b3) connection attempt detected. The server now allows Verified Users (which is a lower community rank, so that means more players.)
+2025-11-08 09:59:10.125 INFO  [server.players] Player 'mariofan99' logged in successfully. 
+2025-11-08 09:59:14.466 DEBUG [server.players.multiplayer] Player 'mariofan99' joined multiplayer session successfully.
+
+
+
+
+
+
